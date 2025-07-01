@@ -36,6 +36,9 @@ Bootstrap scripts & docs for loading the **Wikidata JSON dump** into a Neo4j dat
 git clone https://github.com/adambuilds/index-core.git
 cd index-core
 
+# 0. Copy the example env file and adjust as needed
+cp .env.example .env
+
 # 1. Spin up Neo4j (community edition by default)
 docker compose up -d neo4j
 
